@@ -35,6 +35,8 @@ sudo apt install slayer-editor
 
 ### Option 2 — manual
 
+Repository URL: **https://wyllianbs.github.io/slayer-apt/**
+
 ```bash
 # 1. Add the signing key
 curl -fsSL https://wyllianbs.github.io/slayer-apt/slayer-editor.gpg.asc \
