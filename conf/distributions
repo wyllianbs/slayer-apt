@@ -1,0 +1,8 @@
+Origin: Slayer Editor
+Label: Slayer Editor
+Codename: stable
+Suite: stable
+Architectures: amd64
+Components: main
+Description: APT repository for Slayer Editor (Qt 6 code editor with embedded terminal)
+SignWith: B97111B8B62B9BC1

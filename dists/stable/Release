@@ -1,0 +1,20 @@
+Origin: Slayer Editor
+Label: Slayer Editor
+Suite: stable
+Codename: stable
+Date: Fri, 16 Oct 2026 01:17:53 UTC
+Architectures: amd64
+Components: main
+Description: APT repository for Slayer Editor (Qt 6 code editor with embedded terminal)
+MD5Sum:
+ 32aedba4af01920701dc6ab0082da2b2 1269 main/binary-amd64/Packages
+ 4e950b4454b453e825d824476800e33f 800 main/binary-amd64/Packages.gz
+ dd8c05531f07a4190a509bb73b0475a5 183 main/binary-amd64/Release
+SHA1:
+ 8ea2ce032cf8937ae5833ad6b35333dfa7ee2cde 1269 main/binary-amd64/Packages
+ 41b1e4955b3728b006bc0f45432a6882181605ac 800 main/binary-amd64/Packages.gz
+ f6fab9d4f646080f59f7635c52b60e82671585bf 183 main/binary-amd64/Release
+SHA256:
+ 938cafa87d59c29251a6f067855c0a9f30c0578299f03668177f1537c2695af9 1269 main/binary-amd64/Packages
+ b17fa5e23540f5f1f82b325ae8ea17884d942477fc0a9d68e43b7623d940338f 800 main/binary-amd64/Packages.gz
+ 46f959e6475430a6c70f5f144c984d9ea5676307279b575caa5e5bf37ea06b87 183 main/binary-amd64/Release

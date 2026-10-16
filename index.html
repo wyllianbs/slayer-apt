@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Slayer Editor APT repository</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { font-family: system-ui, sans-serif; line-height: 1.6; max-width: 48rem;
+         margin: 2rem auto; padding: 0 1rem; }
+  h1 { margin-bottom: 0; }
+  p.lead { color: #666; margin-top: .25rem; }
+  pre { background: #f4f4f4; color: #111; padding: 1rem; border-radius: 6px;
+        overflow-x: auto; }
+  @media (prefers-color-scheme: dark) { pre { background: #1e1e1e; color: #eee; } }
+  code { font-family: ui-monospace, monospace; }
+  a { color: #0a66c2; }
+  footer { margin-top: 2rem; color: #888; font-size: .9rem; }
+</style>
+</head>
+<body>
+<h1>Slayer Editor &mdash; APT repository</h1>
+<p class="lead">Signed APT repository for the Slayer Editor, a lightweight Qt&nbsp;6
+code editor with an embedded terminal.</p>
+
+<h2>Install</h2>
+<p>Add the signing key and the repository (Debian/Ubuntu, amd64):</p>
+<pre><code>curl -fsSL https://wyllianbs.github.io/slayer-apt/slayer-editor.gpg.asc \
+  | sudo gpg --dearmor -o /usr/share/keyrings/slayer-editor.gpg
+
+echo "deb [signed-by=/usr/share/keyrings/slayer-editor.gpg] \
+https://wyllianbs.github.io/slayer-apt stable main" \
+  | sudo tee /etc/apt/sources.list.d/slayer-editor.list
+
+sudo apt update
+sudo apt install slayer-editor</code></pre>
+
+<h2>Verify the signing key</h2>
+<p>Fingerprint:
+<code>B6BD E0A3 F0DD CB58 3204 5883 B971 11B8 B62B 9BC1</code>
+(<a href="mailto:wyllianbs@gmail.com">wyllianbs@gmail.com</a>).
+The <a href="slayer-editor.gpg.asc">public key</a> is the same one used on
+mentors.debian.net.</p>
+
+<footer>
+Source code: <a href="https://github.com/wyllianbs/SE">github.com/wyllianbs/SE</a>
+&middot; Maintained by Wyllian Bezerra da Silva.
+</footer>
+</body>
+</html>
