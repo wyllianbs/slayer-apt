@@ -30,8 +30,6 @@ sudo apt install slayer-editor
 
 > **Note:** the metadata entry is under review in extrepo-data:
 > https://salsa.debian.org/extrepo-team/extrepo-data/-/merge_requests/585
-> `extrepo enable slayer-editor` works once that merge request is accepted. Until
-> then, use Option 2.
 
 ### Option 2 — manual
 
