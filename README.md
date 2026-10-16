@@ -29,7 +29,7 @@ sudo apt install slayer-editor
 ```
 
 > **Note:** the metadata entry is under review in extrepo-data:
-> https://salsa.debian.org/extrepo-team/extrepo-data/-/merge_requests/585
+> https://salsa.debian.org/extrepo-team/extrepo-data/-/merge_requests/585.
 
 ### Option 2 — manual
 
