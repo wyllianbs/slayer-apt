@@ -14,6 +14,27 @@ recent Ubuntu releases.
 
 ## Install
 
+There are two ways to install, pick one.
+
+### Option 1 — via `extrepo` (recommended)
+
+[`extrepo`](https://salsa.debian.org/extrepo-team/extrepo) manages the repository
+source and signing key for you, in one command:
+
+```bash
+sudo apt install extrepo
+sudo extrepo enable slayer-editor
+sudo apt update
+sudo apt install slayer-editor
+```
+
+> **Note:** the metadata entry is under review in
+> [extrepo-data](https://salsa.debian.org/extrepo-team/extrepo-data/-/merge_requests/585).
+> `extrepo enable slayer-editor` works once that merge request is accepted. Until
+> then, use Option 2.
+
+### Option 2 — manual
+
 ```bash
 # 1. Add the signing key
 curl -fsSL https://wyllianbs.github.io/slayer-apt/slayer-editor.gpg.asc \
@@ -30,7 +51,8 @@ sudo apt install slayer-editor
 
 ## Update
 
-Once the repository is configured, new releases are picked up automatically:
+Once the repository is configured (either option), new releases are picked up
+automatically:
 
 ```bash
 sudo apt update && sudo apt upgrade
@@ -40,6 +62,18 @@ sudo apt update && sudo apt upgrade
 
 ```bash
 sudo apt remove slayer-editor
+```
+
+If you used **Option 1 (extrepo)**, disable the repository with:
+
+```bash
+sudo extrepo disable slayer-editor
+sudo apt update
+```
+
+If you used **Option 2 (manual)**, remove the source and key:
+
+```bash
 sudo rm /etc/apt/sources.list.d/slayer-editor.list /usr/share/keyrings/slayer-editor.gpg
 sudo apt update
 ```
@@ -56,16 +90,3 @@ Owner:       Wyllian Bezerra da Silva <wyllianbs@gmail.com>
 It is the same key published on [mentors.debian.net](https://mentors.debian.net).
 The public key is available at
 [`slayer-editor.gpg.asc`](https://wyllianbs.github.io/slayer-apt/slayer-editor.gpg.asc).
-
-## Via extrepo (pending)
-
-A metadata entry has been submitted to
-[extrepo-data](https://salsa.debian.org/extrepo-team/extrepo-data) so that, once
-accepted, the repository can be enabled with a single command — no manual key or
-sources handling:
-
-```bash
-sudo extrepo enable slayer-editor
-```
-
-Until that merge request is merged, use the manual steps above.
