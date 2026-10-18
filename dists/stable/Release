@@ -2,19 +2,19 @@ Origin: Slayer Editor
 Label: Slayer Editor
 Suite: stable
 Codename: stable
-Date: Sun, 18 Oct 2026 21:49:10 UTC
+Date: Sun, 18 Oct 2026 22:06:27 UTC
 Architectures: amd64
 Components: main
 Description: APT repository for Slayer Editor (Qt 6 code editor with embedded terminal)
 MD5Sum:
- cd6156178da1363376e0b8b6a259e374 1269 main/binary-amd64/Packages
- 9e5a67a26beeb0f18298ed34e6b875c9 795 main/binary-amd64/Packages.gz
+ 70cef64a4b3ce013d3d81377be0babc9 1269 main/binary-amd64/Packages
+ af19ebe0de94475d069a4e80beb0008e 799 main/binary-amd64/Packages.gz
  dd8c05531f07a4190a509bb73b0475a5 183 main/binary-amd64/Release
 SHA1:
- 3ea37264574fe02e00f7e8d021ce4e906f39de80 1269 main/binary-amd64/Packages
- cd2af4e0f947122fbc4ad21543bb6ff162bd6a4c 795 main/binary-amd64/Packages.gz
+ 95f0a9ccf3b333f52e7724b7ff80748ce875a825 1269 main/binary-amd64/Packages
+ 5bb6f7a7574c8a9a995a58fbe184ed7646dec1c6 799 main/binary-amd64/Packages.gz
  f6fab9d4f646080f59f7635c52b60e82671585bf 183 main/binary-amd64/Release
 SHA256:
- 18054eede746d8f3bcecbf63bb707e13916dea9ddb3a9f2be95ff821657b74e3 1269 main/binary-amd64/Packages
- ef2846f3cdcb42a904f6325dcc733ef1578240999acca8fe8a412623bf145705 795 main/binary-amd64/Packages.gz
+ dd6c0c6ad465d176476d92d27b3ba82acc83d0a4eddfcf687e63b374ddae3e1d 1269 main/binary-amd64/Packages
+ d9f33dd589605653462991c5ad8a31c1b8be39005f702d1ff315cee3283b4ed0 799 main/binary-amd64/Packages.gz
  46f959e6475430a6c70f5f144c984d9ea5676307279b575caa5e5bf37ea06b87 183 main/binary-amd64/Release
