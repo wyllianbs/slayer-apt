@@ -1,5 +1,5 @@
 Package: slayer-editor
-Version: 0.5.0-1
+Version: 0.5.1-1
 Architecture: amd64
 Maintainer: Wyllian Bezerra da Silva <wyllianbs@gmail.com>
 Installed-Size: 4751
@@ -9,11 +9,11 @@ Suggests: rustc, golang-go, nodejs, default-jdk, php-cli
 Homepage: https://github.com/wyllianbs/SE
 Priority: optional
 Section: editors
-Filename: pool/main/s/slayer-editor/slayer-editor_0.5.0-1_amd64.deb
-Size: 2222524
-SHA256: bb050ac0fec589b753986b3a0ab217750fd33fdc6cf0ff49b40b53814fe563ac
-SHA1: 6232ad4e766a64c3464eb5429add308dbbd684f2
-MD5sum: ddb00a8b0f5bb64465197d46e5e0881a
+Filename: pool/main/s/slayer-editor/slayer-editor_0.5.1-1_amd64.deb
+Size: 2223656
+SHA256: 814ee5330ef75847d5acc6b4c0682b93d137c71e579dda8a1bdb012fca34b7b1
+SHA1: cb3cc239012ef17976be1376266133d871029c78
+MD5sum: 6b017ff046ad94f1108f2e304c0c96f1
 Description: lightweight code editor with an embedded terminal
  Slayer Editor is a Qt 6 code editor with tabs, syntax highlighting,
  auto-indentation, auto-closing pairs, find/replace and several color themes.

@@ -5,35 +5,35 @@ Origin: Slayer Editor
 Label: Slayer Editor
 Suite: stable
 Codename: stable
-Date: Sun, 18 Oct 2026 18:17:10 UTC
+Date: Sun, 18 Oct 2026 20:58:40 UTC
 Architectures: amd64
 Components: main
 Description: APT repository for Slayer Editor (Qt 6 code editor with embedded terminal)
 MD5Sum:
- f8d888d436c3d5e8c2bccaac5be71618 1269 main/binary-amd64/Packages
- 3028aa22ca2230ed7c29437f7772cd34 795 main/binary-amd64/Packages.gz
+ ac2e8ce483c7f76328648a5721ed272c 1269 main/binary-amd64/Packages
+ 517cd1db934127d8220e5ddf2b182e09 796 main/binary-amd64/Packages.gz
  dd8c05531f07a4190a509bb73b0475a5 183 main/binary-amd64/Release
 SHA1:
- bc2b70533d26d0304dcbcae60bc15424ba38d686 1269 main/binary-amd64/Packages
- bc49ad7cdcbc42ad822fb0102b6ee5a360dae6ac 795 main/binary-amd64/Packages.gz
+ fe957f08227b5c5221760d8154ed81f582e49ee3 1269 main/binary-amd64/Packages
+ 2a980ed04e1e45c0b4f9d54331c0c73db195bcd3 796 main/binary-amd64/Packages.gz
  f6fab9d4f646080f59f7635c52b60e82671585bf 183 main/binary-amd64/Release
 SHA256:
- bb9124ea973f74907282c2c83198386664cb5dcd369002917f241a56e31a6f7b 1269 main/binary-amd64/Packages
- 27497eecfec0211f5e98b2512b3b27788248d04ce1766495f071319b57527402 795 main/binary-amd64/Packages.gz
+ f7bb8de5f80f2ee76c9332380e4a95257245822b0680321ab3f74aacdbbddf22 1269 main/binary-amd64/Packages
+ d711a74eb40f07da578fa02e62c93506707ab9261896da7f4720255ee57ed093 796 main/binary-amd64/Packages.gz
  46f959e6475430a6c70f5f144c984d9ea5676307279b575caa5e5bf37ea06b87 183 main/binary-amd64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEE93EZhUuUK9t2zuq+EvifM+xzDJsFAmrVDSYACgkQEvifM+xz
-DJtOhBAAxuPn2eP9mdSbMxTWmRGuju/H6dnfBuGo8ugOkSd8x4ACo9/LUZACWocW
-yk/WrkKYne1shKubVb+UjIE06twO//Sx9T8yr+ZfzElRbwMz3YCe7I/aGhjFj9XR
-aefjr/U5urbN3merVrhYac3qN3kpAdkH9dLM9zoTeuN+g4BCUM9GfzGcW04W73ms
-YsmzM1V9oCiqCOc1zTZ9HaBAKCY98GulM0CKXjxbGIk6lEOFGfASPa2wvDRWdgjM
-JwNRdn99UKZELr/a7dDPQ2wNJc+rQDgvt79SBc7/HuHUzLnPk+ViZHsMxZ5vCBdc
-W0hDOii7IazFOrDVZQzFCDr8IHmGxkiw3C+GeUIXoka2zuC/jEF8piBukbtvuwLn
-UzVZTNk6Z4kamCrmy+m6kDKLErjwPFBaCnvm6bU0IQj1s4F9fU5woPXBAUsmGSSp
-a7+K7OKLyUe27rQsPdoX6ObbUaxd77D2VSvgR/HUWToAKh9YTZKLSBl2jiszPjWL
-S+rYAcw3LUhypnRPFNffPVITw+aWsW8XimdEHX7YyaMgehay8Sj8sGfMG5BG5Pid
-v3mmw9m3UtNevzXlqMa+IuqIXzalpXgTer/u35AoFLiagAgB1AdMZUevyQu9vyhU
-zyAJTAtEzWEHyTe7KfhyOh2cTqjMeOOWEj/wDtbd93tLwuCQrv4=
-=1S61
+iQIzBAEBCgAdFiEE93EZhUuUK9t2zuq+EvifM+xzDJsFAmrVMwAACgkQEvifM+xz
+DJuEWA//RPFXA3F3lsowJWXE1Mto1nwRNxnrASarHh8bS9QeIEa5lw/DzwBHB1GR
+IQLHP97rb5ljXQ/0S4knNN7eAchFFXyd7Z2atQeQuUmCdMXfF+2uVjFXWBTRkmoN
+eyjp4iEu2k8zcoxlTJx1bAci4mAe3ZVwyHAiqkgpOwQJ7ljWp9pYbESYZ+y/IZja
+qPJuOqetRo3uA4nvUKv0C3KefBe4rFwKIeWt98lnYu/+UL6yGnzUahmWjr3oRBTj
+ys0H5E1xjseN884g6WLjZxL3/MGu2uorV9Khtpr6nw7TZUaU2BF79ghvYhZLDWCG
+U3N0j1rgNCt6SynvLNFNcMSb23ZU26XSJvJaDR09Z5a0OFHmyY+792VvH65plpRV
+JwLGXP+M2B0RvOBzxRjbfBnql4fBM+EVOeGSBHIu0khLVmolmzjddh9N3ZG5vlw2
+rxYbd65U9J5tUPIbml6jib9vYd9medhwyvq+qEhnEX0y8g57eNyvLcDgf9CHqpJR
++dc3r9NHqL70FgVupDwjOy217fFDwplXBPuHwhMDT8DccTdR7/HNrmaGQPXtgLLu
+8URgU8Anp0JbSIhwEEnCKO9MJV5g8cajviGyBTkIfgCScLhAto/a1p7UnodIFDZG
+whd80s4nnXs80fOCiMgHqwy64WD+hsZSU306tZu4dc60WclgBsg=
+=gFvk
 -----END PGP SIGNATURE-----
